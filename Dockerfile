@@ -1,4 +1,6 @@
+# use latest docker 
 FROM ubuntu:14.04
+
 MAINTAINER Petr Lomakin <plomakin@mirantis.com>
 
 ARG cf_commit_or_branch
