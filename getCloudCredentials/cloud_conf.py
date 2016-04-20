@@ -6,8 +6,8 @@
 import re
 from fabric.api import run
 from fabric.tasks import execute
+
 import os
-from fabric.api import env
 
 # Replace ip with the SRC-Contoller IP  of SRC Cloud
 host1 = "root@10.30.0.4"
