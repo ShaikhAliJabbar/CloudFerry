@@ -9,13 +9,13 @@ from fabric.tasks import execute
 import os
 from fabric.api import env
 
-# Rplace ip with the SRC-Contoller IP  of SRC Cloud
+# Replace ip with the SRC-Contoller IP  of SRC Cloud
 host1 = "root@10.30.0.4"
 
-# Rplace ip with the DST-Contoller IP  of DST Cloud
+# Replace ip with the DST-Contoller IP  of DST Cloud
 host2 = "root@10.20.0.3"
 
-# Rplace ip with the SRC-Contoller IP  of SRC cloud
+# Relace ip with the SRC-Contoller IP  of SRC cloud
 # cmd1 = "scp find.sh root@CloudController:/root/" 
 
 cmd1 = "scp find.sh root@10.30.0.4:/root/" 
