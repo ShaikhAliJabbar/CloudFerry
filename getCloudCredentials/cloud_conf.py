@@ -3,7 +3,6 @@
 # Object of this script to fetch the cloud credential for confiuring configuration.ini 
 
 
-import re
 from fabric.api import run
 from fabric.tasks import execute
 
